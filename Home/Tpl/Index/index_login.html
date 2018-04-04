@@ -1,0 +1,124 @@
+<extend name="./public/base.html" />
+
+<block name="title">博文首页</block>
+
+<block name="main">
+<if condition="$Think.session.username EQ null">
+ <script type="text/javascript">
+  alert("请先登录才能访问");
+  window.location.href="__URL__/index";
+ </script>
+<else/>
+<a href="__URL__/index" class="btn btn-primary">点我进入所有博文</a>
+</if>
+<!-- content Section -->
+	<div class="container">
+		<div class="col-sm-offset-1 col-sm-7">
+		    <foreach name="blog" item="b">
+				<div class="row">
+					<div class="col-sm-11" style="margin-bottom:: 20px;">
+		 				<h3 class="text-primary" style="display: inline;">
+		 				   <a href="__URL__/detail?bid={$b['b_id']}"><strong>{$b['b_title']}</strong></a>
+		 				</h3>
+						<span class="label label-default pull-right">{$b['b_pubtime']|date="Y-m-d",###}</span>
+						<hr style="margin-top: 0;">
+					</div>
+				</div>
+				<div class="row" style="font-size: 16px; margin:0;">
+					{$b['b_bar']}
+				</div>
+				<div class="row">				
+					<ul class="list-inline list-unstyled pull-right" style="padding: 5px;">
+						<li><span class="label label-danger">作者:{$b['user']}</span></li>
+						<li><span class="label label-success"><i class="icon icon-eye-open"></i>浏览({$b['look']})</span></li>
+						<li><span class="label label-primary">分类:{$b['f_name']}</span></li>
+						<li><span class="label label-info"><i class="icon icon-thumbs-up"></i>赞({$b['zan']})</span></li>
+						<li><span class="label label-warning"><i class="icon icon-pencil"></i>评论({$b['num']})</span></li>
+					</ul>				
+				</div>
+			</foreach>	
+			<if condition="$page EQ '   '">
+					<if condition="$blogcontent EQ null">
+	                  <else/>
+		               <script type="text/javascript">
+					     var str="";
+		                     str+="<tr>";
+								str+="<td colspan='7' class='text-center text-muted'>";
+									str+="<p>暂无更多数据。。。。。。</p>";
+								str+="</td>";
+						     str+="</tr>";
+						   $('#tb_b_cbAll').append(str);
+						</script>
+				    </if>
+				<else/>
+				<div class="row text-center">
+					<nav aria-label="Page navigation">
+						<ul class="pagination">
+								{$page}		
+						</ul>
+					</nav>
+				</div>
+			</if>	
+		</div>
+
+		<div class="col-sm-3 col-sm-offset-1">
+			<div class="row">
+				<form class="form-inline" action="__URL__/sousuo" method="post">
+					<div class="form-group">
+						<input type="text" name="blogkey">
+						<button type="submit" class="btn btn-primary">搜索</button>
+					</div>				
+				</form>
+			</div>
+			<div class="row">
+				<h4><strong>博客统计</strong></h4>
+				<ul class="list-group">
+				    <if condition="$Think.session.username NEQ null">
+						<li class="list-group-item">访问量：<strong>{$allmessage['look']}</strong></li>
+					    <li class="list-group-item">博文总数：<strong>{$allmessage['blog']}</strong></li>
+					    <li class="list-group-item">评论总数：<strong>{$allmessage['ping']}</strong></li>
+					<else/>
+						<li class="list-group-item">访问量：<strong>登录后查看</strong></li>
+					    <li class="list-group-item">博文总数：<strong>登录后查看</strong></li>
+					    <li class="list-group-item">评论总数：<strong>登录后查看</strong></li>
+					</if>					
+					
+				</ul>
+			</div>
+			<div class="row">
+				<h4><strong>其他分类博客</strong></h4>
+				<div class="col-sm-12">
+					<button class="btn btn-default" style="margin:0 5px 10px;">Linux</button>
+					<button class="btn btn-primary" style="margin:0 5px 10px;">Mysql</button>
+					<button class="btn btn-success" style="margin:0 5px 10px;">Php</button>
+					<button class="btn btn-danger" style="margin:0 5px 10px;">javascript</button>
+					<button class="btn btn-info" style="margin:0 5px 10px;">html</button>
+					<button class="btn btn-warning" style="margin:0 5px 10px;">css</button>
+				</div>
+			</div>
+
+			<div class="row">
+				<h4><strong>最热博文</strong></h4>
+				<ul class="list-group">
+					 <foreach name="hotblog" item="h">
+					<li class="list-group-item" ><a href="">{$h['b_title']}</a><span class="badge">{$h['look']}</span></li>
+				 </foreach>
+				</ul>
+			</div>
+			<div class="row">
+				<h4><strong>联系我</strong></h4>
+				<ul class="list-group">
+					<li class="list-group-item">个人博客系统：<a href="">www.little_fish.com</a></li>
+					<if condition="$Think.session.username EQ null" >
+					<li class="list-group-item">个人QQ：<a href="">登录后查看</a></li>
+					<else/>
+					<li class="list-group-item">个人QQ：<a href="">{$Think.session.QQ}</a></li>
+					</if>
+				</ul>
+			</div>
+			
+		</div>
+	</div>
+</block>
+
+<block name="js"></block>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title><block name="title">title</block></title>
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css">
+	<!-- font-awesome css -->
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/font-awesome.css">
+	
+	<!-- jquery js -->
+	<script src="__PUBLIC__/js/jquery-3.2.1.min.js"></script>
+	<!-- bootstrap js -->
+	<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+
+</head>
+
+
+
+<body style="overflow-y:scroll; overflow-x:hidden;">
+
+
+	<div id="content" class="container-fluid">
+	<!-- header Section -->
+		<header class="row">
+			<ul class="nav nav-pills navbar-inverse navbar-static-top" style="border-radius: 10px;">
+				<li role="presentation" class="btn btn-md">
+					<a href="__APP__/Index/index_login" class="text-center">首页</a>
+				</li>
+
+                <foreach name="faclass" item="f" key="key">
+				<li role="presentation" class="btn btn-md dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
+						{$f['f_name']}<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+					    <if condition="$f['son'] EQ null">
+					    <li><a href="#">暂无分类</a></li>
+					    <else/>
+					    <foreach name="faclass[$key]['son']" item="son">
+						<li><a href="__APP__/Index/headerclassson?sonid={$son['c_id']}">{$son['f_name']}</a></li>
+						</foreach>
+						</if>
+					</ul>
+				</li>
+				</foreach>
+				
+				<ul class="btn btn-md pull-right">
+					<li role="presentation" class="btn btn-md">
+						<i class="icon-user icon-large icon-border" style="color: white;"></i>
+						 <b class="text-center" style="color: white;">
+						    <if condition="$Think.session.username EQ null">
+						    欢迎你！游客
+						    <else/>
+						    欢迎你！{$Think.session.username}
+						    </if>
+						  </b>
+					</li>
+					<li role="presentation" class="btn btn-md">
+						<a href="__APP__/Myback/back">后台首页</a>
+					</li>
+					<if condition="$Think.session.username NEQ null">
+						<li role="presentation" class="btn btn-md">
+							<a href="__APP__/Login/destroysession">注销</a>
+						</li>
+					<else/>
+						<li role="presentation" class="btn btn-md">
+							<a href="__APP__/Login/login">登录</a>
+						</li>
+					</if>
+					<li role="presentation" class="btn btn-md">
+						<a href="__APP__/Index/index_login">博客首页</a>
+					</li>
+				</ul>				
+			</ul>
+		</header>
+	</div>
+<block name="welcome">
+<!-- welcome my blog -->
+	<div class="container-fluid" >
+		<div class="row">
+			<div class="col-xs-offset-2 col-xs-1">
+				<h1 class="text-primary" style="margin: 0;">Blog</h1>
+			</div>
+			<div class="col-xs-4" style="margin-top: 15px;">
+				<h3 class="" style="margin: 0;">welcome my blog</h3>
+			</div>			
+		</div>
+		<div class="row">
+			<img src="__PUBLIC__/img/11.jpg" style="width: 100%">
+		</div>
+	</div>
+</block>
+
+
+
+<block name="main">
+主要内容
+</block>
+
+
+	<footer class="row text-center" style="background: rgba(0,0,0,0.9); color: white">
+		<span class="text-center">Copyright © 20018 myblog. All Rights Reserved</span><br>
+		<span class="text-center">Powered by Yxiaowei Blog V1.0 Release 20170730</span>			
+	</footer>
+
+</body>
+</html>
+
+<block name="js"></block>

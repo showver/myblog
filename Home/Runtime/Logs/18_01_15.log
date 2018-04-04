@@ -1,0 +1,2 @@
+[ 2018-01-15T12:42:58+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: NO)
+[ 2018-01-15T12:43:46+08:00 ] ERR: (ThinkException) Unknown database 'myblog2'

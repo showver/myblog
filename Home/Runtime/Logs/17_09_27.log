@@ -1,0 +1,558 @@
+[ 2017-09-27T19:28:15+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-09-27T19:28:49+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-09-27T19:28:50+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003258s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.028681s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000666s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.001005s ]
+
+[ 2017-09-27T19:28:57+08:00 ] 0.0.0.0 /myblog/index.php/Myback/update
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003811s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.035961s ]
+SQL: UPDATE `my_user` SET `user`='555',`pwd`='5555',`gro`=0,`cretime`=1506511737 WHERE ( `id` = 9 ) [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `my_gro` [ RunTime:0.028021s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT `name` FROM `my_gro` WHERE ( uid=0 ) LIMIT 1   [ RunTime:0.000875s ]
+
+[ 2017-09-27T19:28:58+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.030731s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000822s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.001205s ]
+
+[ 2017-09-27T19:28:59+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003060s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.033600s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000829s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.000998s ]
+
+[ 2017-09-27T19:28:59+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002456s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.015746s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000709s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.001165s ]
+
+[ 2017-09-27T19:29:24+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-09-27T19:29:27+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003424s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.027195s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000629s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.000965s ]
+
+[ 2017-09-27T19:29:28+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002512s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.027941s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000682s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.001177s ]
+
+[ 2017-09-27T19:29:28+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002362s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.014805s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000556s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.001084s ]
+
+[ 2017-09-27T19:29:29+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003971s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.028190s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000624s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.001135s ]
+
+[ 2017-09-27T19:29:30+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002390s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.027090s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000514s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.000912s ]
+
+[ 2017-09-27T19:29:30+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003250s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.015490s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000660s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.000946s ]
+
+[ 2017-09-27T19:29:32+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004043s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.127276s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.001097s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.001513s ]
+
+[ 2017-09-27T19:29:32+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003027s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.015553s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000839s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.000972s ]
+
+[ 2017-09-27T19:30:37+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-09-27T19:32:16+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-09-27T19:32:18+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003646s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.029576s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000536s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.000981s ]
+
+[ 2017-09-27T19:33:54+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-09-27T19:33:58+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002776s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.028726s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000665s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.000999s ]
+
+[ 2017-09-27T19:34:01+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003268s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.028706s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000550s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.000972s ]
+
+[ 2017-09-27T19:34:02+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003315s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.034701s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000621s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.001027s ]
+
+[ 2017-09-27T19:34:03+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002980s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.028208s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000526s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.000944s ]
+
+[ 2017-09-27T19:34:04+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002941s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.028447s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000617s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.001007s ]
+
+[ 2017-09-27T19:34:05+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003179s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.028726s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000519s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.001042s ]
+
+[ 2017-09-27T19:34:06+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002751s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.028063s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000599s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.000996s ]
+
+[ 2017-09-27T19:34:54+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-09-27T19:34:57+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006579s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.029531s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000704s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.000975s ]
+
+[ 2017-09-27T19:34:59+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003333s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.028532s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000559s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.000969s ]
+
+[ 2017-09-27T19:35:22+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-09-27T19:35:24+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002525s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.029805s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000590s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.000983s ]
+
+[ 2017-09-27T19:35:25+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004467s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.029502s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000546s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.001008s ]
+
+[ 2017-09-27T19:36:04+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-09-27T19:36:07+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003736s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.174554s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.001860s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.002036s ]
+
+[ 2017-09-27T19:36:08+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004382s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.029330s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000577s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.000959s ]
+
+[ 2017-09-27T19:36:33+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-09-27T19:36:35+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003851s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.029076s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000578s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.000996s ]
+
+[ 2017-09-27T19:36:37+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005640s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.409346s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.001217s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.002171s ]
+
+[ 2017-09-27T19:37:09+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-09-27T19:37:11+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003192s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.033594s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000637s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.001143s ]
+
+[ 2017-09-27T19:37:13+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003614s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.030374s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.001002s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.001074s ]
+
+[ 2017-09-27T19:38:36+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-09-27T19:38:38+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003287s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.031274s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000711s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.001432s ]
+
+[ 2017-09-27T19:39:21+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-09-27T19:39:23+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002778s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.065174s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000579s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.001033s ]
+
+[ 2017-09-27T19:39:25+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003304s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.038657s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000684s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.001009s ]
+
+[ 2017-09-27T19:39:25+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003806s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.016091s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000532s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.001164s ]
+
+[ 2017-09-27T19:41:10+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-09-27T19:41:12+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002933s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.029799s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000564s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.001080s ]
+
+[ 2017-09-27T19:41:13+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002780s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.029395s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000698s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.000992s ]
+
+[ 2017-09-27T19:41:36+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-09-27T19:41:37+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003769s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.039540s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000670s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.001171s ]
+
+[ 2017-09-27T19:41:39+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.030795s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000710s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.000998s ]
+
+[ 2017-09-27T19:41:56+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-09-27T19:41:59+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002982s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.030086s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000597s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.001293s ]
+
+[ 2017-09-27T19:42:00+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003655s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.032078s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000581s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.001011s ]
+
+[ 2017-09-27T19:42:00+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002884s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.015613s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000551s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.000977s ]
+
+[ 2017-09-27T19:42:27+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002559s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.028720s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000555s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.001185s ]
+
+[ 2017-09-27T19:42:29+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-09-27T19:42:31+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002706s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.030866s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000629s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.000951s ]
+
+[ 2017-09-27T19:44:09+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-09-27T19:44:12+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002865s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.028894s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000724s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.001731s ]
+
+[ 2017-09-27T19:44:13+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003788s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.028679s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000552s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.001035s ]
+
+[ 2017-09-27T19:44:14+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002470s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.031524s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000694s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.001015s ]
+
+[ 2017-09-27T19:44:49+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-09-27T19:44:52+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003186s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.032824s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000562s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.001169s ]
+
+[ 2017-09-27T19:44:54+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004408s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.030762s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000537s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.001029s ]
+

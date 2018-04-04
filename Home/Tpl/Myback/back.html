@@ -1,0 +1,98 @@
+<extend name="./public/adminbase.html" />
+
+<block name="title">后台首页</block>
+
+<block name="aside">	
+		<!-- aside Section -->
+			<aside class="aside col-xs-2">
+				<div class="list-group">
+					<a href="__URL__/back" id="mana_center" class="list-group-item list-group-item-danger btn active">
+						<h4 class="list-group-item-header">管理中心</h4>
+					</a>
+					<a href="__URL__/newcreateblog" id="new_blog" class="list-group-item list-group-item-warning btn">
+						<h4 class="list-group-item-header">新建博文</h4>
+					</a>
+					<a href="__URL__/blog_mana" id="mana_blog" class="list-group-item list-group-item-success btn">
+						<h4 class="list-group-item-header">博文管理</h4>
+					</a>
+					<a href="#" id="mana_page" class="list-group-item list-group-item-info btn" data-toggle="popover" title="温馨提示：" data-content="此网页正在完善中" data-placement="top" data-trigger="focus">
+						<h4 class="list-group-item-header">页面管理</h4>
+					</a>
+					<a href="__URL__/pinglun_mana" id="mana_comment" class="list-group-item list-group-item-danger btn">
+						<h4 class="list-group-item-header">评论管理</h4>
+					</a>
+					<a href="__URL__/class_mana" id="mana_classify" class="list-group-item list-group-item-warning btn">
+						<h4 class="list-group-item-header">分类管理</h4>
+					</a>
+					<a href="#" id="mana_tag" class="list-group-item list-group-item-success btn" data-toggle="popover" title="温馨提示：" data-content="此网页正在完善中" data-placement="top" data-trigger="focus">
+						<h4 class="list-group-item-header">标签管理</h4>
+					</a>
+					<a href="__URL__/user_mana" id="mana_user" class="list-group-item list-group-item-info btn">
+						<h4 class="list-group-item-header">用户管理</h4>
+					</a>
+				</div>
+			</aside>
+</block>
+
+<block name="main">
+<if condition="$Think.session.id EQ null">
+<else/>
+		<!-- 1、mana_center_article -->
+			<article class="mana_center_a col-xs-10">
+				<div class="center-block">
+					<button class="icon icon-tag btn btn-lg text-danger">管理中心</button>
+				</div>	
+				<hr>
+				<!-- panel -->
+				<div class="panel panel-danger">
+					<div class="panel-heading">
+						<div class="panel-title">用户信息详情</div>
+					</div>
+					<div class="panel-body">
+						<table class="table table-hover">
+							<tr>
+								<th class="">当前用户</th>
+								<td class="text-left">{$Think.session.username}</td>
+								<th class="">文章总数</th>
+								<td class="text-left">{$allmessage['blog']}</td>
+							</tr>
+							<tr>
+								<th class="">浏览总数</th>
+								<td class="text-left">{$allmessage['look']}</td>
+								<th class="">评论总数</th>
+								<td class="text-left">{$allmessage['ping']}</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<hr>
+				<div class="panel panel-danger">
+					<div class="panel-heading">
+						<div class="panel-title">开发者详情</div>
+					</div>
+					<div class="panel-body">
+						<table class="table table-hover">
+							<tr>
+								<th class="">团队名称</th>
+								<td class="text-left">无</td>
+								<th class="">公网IP</th>
+								<td class="text-left">无</td>
+							</tr>
+							<tr>
+								<th class="">作品名称</th>
+								<td class="text-left">无</td>
+								<th class="">访问域名</th>
+								<td class="text-left">无</td>
+							</tr>
+						</table>
+					</div>
+				</div>				
+			</article>
+		</div>
+	</div>
+</block>
+<block name="footer"></if></block>
+	
+
+<block name="model"></block>
+<block name="js"></block>

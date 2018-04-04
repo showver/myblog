@@ -1,0 +1,9 @@
+/* valifate的错误提示信息 */
+label.error 
+{ 
+color:Red; 
+font-size:13px; 
+margin-left:5px; 
+padding-left:16px; 
+background:url("../img/unchecked.gif") left no-repeat; 
+} 

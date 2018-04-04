@@ -1,0 +1,8 @@
+[ 2018-01-03T22:35:54+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2018-01-03T22:36:00+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='111' ) LIMIT 1   [ RunTime:0.001001s ]
+

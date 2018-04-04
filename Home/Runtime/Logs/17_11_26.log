@@ -1,0 +1,482 @@
+[ 2017-11-26T11:29:59+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T13:24:22+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T13:29:57+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T13:30:11+08:00 ] ERR: (ThinkException) 非法操作:blognoshenkey
+[ 2017-11-26T13:31:14+08:00 ] ERR: (ThinkException) 非法操作:blognoshenkey
+[ 2017-11-26T13:44:01+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T13:47:01+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T13:49:01+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T13:49:59+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T13:55:25+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T16:15:10+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T16:15:18+08:00 ] 0.0.0.0 /myblog/index.php/Myback/pinglundelarr
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003458s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.011201s ]
+SQL: DELETE FROM `my_pinglun` WHERE ( `p_id` IN ('6','') ) [ RunTime:0.000896s ]
+
+[ 2017-11-26T16:15:19+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T16:42:54+08:00 ] 0.0.0.0 /myblog/index.php/Myback/pinglundelarr
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005986s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.011741s ]
+SQL: DELETE FROM `my_pinglun` WHERE ( `p_id` IN ('1','') ) [ RunTime:0.001525s ]
+
+[ 2017-11-26T17:00:44+08:00 ] 0.0.0.0 /myblog/index.php/Myback/pinglunshenhearr
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002895s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008805s ]
+SQL: UPDATE `my_pinglun` SET `p_shenhe`=1 WHERE ( `p_id` IN ('5','') ) [ RunTime:0.000867s ]
+
+[ 2017-11-26T17:00:47+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:01:41+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:02:05+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:02:16+08:00 ] 0.0.0.0 /myblog/index.php/Myback/pinglunshenhearr
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003187s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.009385s ]
+SQL: UPDATE `my_pinglun` SET `p_shenhe`=1 WHERE ( `p_id` IN ('8','') ) [ RunTime:0.000823s ]
+
+[ 2017-11-26T17:03:14+08:00 ] 0.0.0.0 /myblog/index.php/Myback/pinglunshenhearr
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002487s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008422s ]
+SQL: UPDATE `my_pinglun` SET `p_shenhe`=1 WHERE ( `p_id` IN ('9','10','') ) [ RunTime:0.001019s ]
+
+[ 2017-11-26T17:03:17+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:03:58+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:04:08+08:00 ] 0.0.0.0 /myblog/index.php/Myback/pinglunshenhearr
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005347s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.010240s ]
+SQL: UPDATE `my_pinglun` SET `p_shenhe`=1 WHERE ( `p_id` IN ('9','5','10','') ) [ RunTime:0.001057s ]
+
+[ 2017-11-26T17:04:14+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:05:00+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:05:16+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:06:06+08:00 ] ERR: (ThinkException) 表达式错误:9
+[ 2017-11-26T17:08:58+08:00 ] 0.0.0.0 /myblog/index.php/Myback/pinglunshenhearr
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002934s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.010736s ]
+
+[ 2017-11-26T17:17:29+08:00 ] 0.0.0.0 /myblog/index.php/Myback/pinglunshenhearr
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003251s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.009546s ]
+
+[ 2017-11-26T17:18:14+08:00 ] 0.0.0.0 /myblog/index.php/Myback/pinglunshenhearr
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003674s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.011968s ]
+SQL: UPDATE `my_pinglun` SET `p_shenhe`=1 WHERE ( `p_id` IN ('9','5','10','') ) [ RunTime:0.001057s ]
+
+[ 2017-11-26T17:18:33+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:19:19+08:00 ] 0.0.0.0 /myblog/index.php/Myback/pinglundelarr
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003267s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008666s ]
+SQL: DELETE FROM `my_pinglun` WHERE ( `p_id` IN ('8','5','') ) [ RunTime:0.001183s ]
+
+[ 2017-11-26T17:19:20+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:21:38+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:29:03+08:00 ] 0.0.0.0 /myblog/index.php/Myback/pinglunshenhearr
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003692s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.014029s ]
+SQL: UPDATE `my_pinglun` SET `p_shenhe`=1 WHERE ( `p_id` IN ('12','11','') ) [ RunTime:0.000905s ]
+
+[ 2017-11-26T17:31:10+08:00 ] 0.0.0.0 /myblog/index.php/Myback/pinglunshenhearr
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003554s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.009586s ]
+SQL: UPDATE `my_pinglun` SET `p_shenhe`=1 WHERE ( `p_id` IN ('9','') ) [ RunTime:0.000825s ]
+
+[ 2017-11-26T17:31:13+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:32:34+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:33:19+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:33:35+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:33:41+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:33:55+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:34:58+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003099s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.010703s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=1 WHERE ( `p_id` = 12 ) [ RunTime:0.000665s ]
+
+[ 2017-11-26T17:35:04+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:35:10+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:35:15+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003147s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008641s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 11 ) [ RunTime:0.000881s ]
+
+[ 2017-11-26T17:35:23+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002938s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008424s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 9 ) [ RunTime:0.000827s ]
+
+[ 2017-11-26T17:35:25+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:35:29+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003849s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008886s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=1 WHERE ( `p_id` = 11 ) [ RunTime:0.000785s ]
+
+[ 2017-11-26T17:35:34+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002915s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008850s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=1 WHERE ( `p_id` = 9 ) [ RunTime:0.000834s ]
+
+[ 2017-11-26T17:35:42+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002965s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.012861s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 11 ) [ RunTime:0.000816s ]
+
+[ 2017-11-26T17:35:44+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002992s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.009935s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 9 ) [ RunTime:0.000920s ]
+
+[ 2017-11-26T17:35:44+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002998s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.010907s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 9 ) [ RunTime:0.000728s ]
+
+[ 2017-11-26T17:35:44+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003115s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.010483s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 9 ) [ RunTime:0.000773s ]
+
+[ 2017-11-26T17:35:48+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002970s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008818s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 9 ) [ RunTime:0.000669s ]
+
+[ 2017-11-26T17:35:49+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002897s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008144s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 9 ) [ RunTime:0.000707s ]
+
+[ 2017-11-26T17:35:49+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003125s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008555s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 9 ) [ RunTime:0.000653s ]
+
+[ 2017-11-26T17:35:49+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002915s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008132s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 9 ) [ RunTime:0.000718s ]
+
+[ 2017-11-26T17:35:50+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003498s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.010877s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 9 ) [ RunTime:0.000956s ]
+
+[ 2017-11-26T17:36:28+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:36:32+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003017s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008378s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=1 WHERE ( `p_id` = 12 ) [ RunTime:0.000673s ]
+
+[ 2017-11-26T17:37:29+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:37:33+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003118s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008507s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=1 WHERE ( `p_id` = 12 ) [ RunTime:0.000639s ]
+
+[ 2017-11-26T17:37:36+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:37:44+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003253s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008585s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 9 ) [ RunTime:0.000661s ]
+
+[ 2017-11-26T17:37:45+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002918s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008738s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 11 ) [ RunTime:0.000928s ]
+
+[ 2017-11-26T17:37:45+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003306s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008336s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 11 ) [ RunTime:0.000763s ]
+
+[ 2017-11-26T17:37:46+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003951s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008619s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 11 ) [ RunTime:0.000643s ]
+
+[ 2017-11-26T17:37:46+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002980s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.011828s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 11 ) [ RunTime:0.000903s ]
+
+[ 2017-11-26T17:37:46+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002878s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008449s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 11 ) [ RunTime:0.000764s ]
+
+[ 2017-11-26T17:37:46+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002994s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008904s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 11 ) [ RunTime:0.000645s ]
+
+[ 2017-11-26T17:37:46+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002888s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008284s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 11 ) [ RunTime:0.000652s ]
+
+[ 2017-11-26T17:39:08+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002920s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008405s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 9 ) [ RunTime:0.000700s ]
+
+[ 2017-11-26T17:39:09+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002954s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008389s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 9 ) [ RunTime:0.000921s ]
+
+[ 2017-11-26T17:39:09+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003197s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.009179s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 9 ) [ RunTime:0.000645s ]
+
+[ 2017-11-26T17:39:10+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002970s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008645s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 11 ) [ RunTime:0.000660s ]
+
+[ 2017-11-26T17:39:10+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003108s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.009670s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 11 ) [ RunTime:0.000710s ]
+
+[ 2017-11-26T17:39:10+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002983s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008571s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 11 ) [ RunTime:0.000623s ]
+
+[ 2017-11-26T17:41:16+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003245s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008858s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=1 WHERE ( `p_id` = 9 ) [ RunTime:0.000957s ]
+
+[ 2017-11-26T17:41:53+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005359s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.010993s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=1 WHERE ( `p_id` = 9 ) [ RunTime:0.000793s ]
+
+[ 2017-11-26T17:42:01+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003567s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.009212s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=1 WHERE ( `p_id` = 11 ) [ RunTime:0.000880s ]
+
+[ 2017-11-26T17:42:28+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002982s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.009280s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=1 WHERE ( `p_id` = 9 ) [ RunTime:0.000870s ]
+
+[ 2017-11-26T17:43:26+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003785s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008694s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=1 WHERE ( `p_id` = 9 ) [ RunTime:0.000756s ]
+
+[ 2017-11-26T17:44:40+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003052s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008331s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=1 WHERE ( `p_id` = 9 ) [ RunTime:0.000729s ]
+
+[ 2017-11-26T17:45:04+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003123s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008572s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 9 ) [ RunTime:0.002245s ]
+
+[ 2017-11-26T17:45:10+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:45:18+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:45:24+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003572s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008273s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 12 ) [ RunTime:0.000779s ]
+
+[ 2017-11-26T17:45:41+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:45:48+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003337s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008427s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=0 WHERE ( `p_id` = 10 ) [ RunTime:0.000968s ]
+
+[ 2017-11-26T17:45:50+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:45:56+08:00 ] 0.0.0.0 /myblog/index.php/Myback/p_zhuangtai
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005350s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008090s ]
+SQL: UPDATE `my_pinglun` SET `p_zhuangtai`=1 WHERE ( `p_id` = 10 ) [ RunTime:0.000779s ]
+
+[ 2017-11-26T17:45:59+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T17:46:00+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T18:43:57+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T18:45:55+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T18:46:25+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T18:46:41+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T20:36:09+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T20:36:42+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T20:39:31+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T20:39:45+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T20:39:46+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T20:48:04+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T20:49:15+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T21:34:28+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T21:34:38+08:00 ] ERR: (ThinkException) 非法操作:__URL__
+[ 2017-11-26T21:35:01+08:00 ] ERR: (ThinkException) 非法操作:__URL__
+[ 2017-11-26T21:39:33+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T21:39:51+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T22:42:30+08:00 ] ERR: (ThinkException) 非法操作:__URL__
+[ 2017-11-26T22:43:20+08:00 ] ERR: (ThinkException) 非法操作:index
+[ 2017-11-26T22:43:32+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T22:44:26+08:00 ] ERR: (ThinkException) 非法操作:__URL__
+[ 2017-11-26T22:44:27+08:00 ] ERR: (ThinkException) 非法操作:__URL__
+[ 2017-11-26T22:45:23+08:00 ] ERR: (ThinkException) 非法操作:__URL__
+[ 2017-11-26T22:45:53+08:00 ] ERR: (ThinkException) 非法操作:__URL__
+[ 2017-11-26T22:45:54+08:00 ] ERR: (ThinkException) 非法操作:__URL__
+[ 2017-11-26T22:46:31+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-11-26T22:47:50+08:00 ] ERR: (ThinkException) 非法操作:kindeditor

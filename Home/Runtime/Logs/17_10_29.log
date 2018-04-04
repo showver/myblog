@@ -1,0 +1,84 @@
+[ 2017-10-29T17:56:03+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-10-29T17:59:04+08:00 ] 0.0.0.0 /myblog/index.php/Myback/useradd
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004970s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.008817s ]
+SQL: INSERT INTO `my_user` (`user`,`pwd`,`cretime`,`gro`,`shell`) VALUES ('游客','123456',1509271144,1,888) [ RunTime:0.000808s ]
+
+[ 2017-10-29T17:59:08+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-10-29T18:49:08+08:00 ] 0.0.0.0 /myblog/index.php/Myback/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002950s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.008262s ]
+SQL: DELETE FROM `my_user` WHERE ( id=20 ) [ RunTime:0.000769s ]
+
+[ 2017-10-29T18:49:09+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-10-29T18:49:19+08:00 ] 0.0.0.0 /myblog/index.php/Myback/update
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004261s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.011139s ]
+SQL: UPDATE `my_user` SET `user`='22222',`pwd`='2222',`gro`=1,`cretime`=1509274159 WHERE ( `id` = 24 ) [ RunTime:0.001595s ]
+SQL: SHOW COLUMNS FROM `my_gro` [ RunTime:0.010243s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT `name` FROM `my_gro` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.001446s ]
+
+[ 2017-10-29T18:55:19+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-10-29T19:10:06+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-10-29T19:31:32+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-10-29T19:31:49+08:00 ] 0.0.0.0 /myblog/index.php/Myback/useradd
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005337s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.012712s ]
+SQL: INSERT INTO `my_user` (`user`,`pwd`,`cretime`,`gro`,`shell`) VALUES ('weige ','123456',1509276708,1,888) [ RunTime:0.001124s ]
+
+[ 2017-10-29T19:32:01+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-10-29T19:33:06+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-10-29T19:57:17+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-10-29T19:57:50+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-10-29T19:58:03+08:00 ] 0.0.0.0 /myblog/index.php/Myback/useradd
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.009091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009920s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.012305s ]
+SQL: INSERT INTO `my_user` (`user`,`pwd`,`cretime`,`gro`,`shell`) VALUES ('ooo','123456',1509278283,0,888) [ RunTime:0.003994s ]
+
+[ 2017-10-29T19:58:04+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-10-29T20:02:02+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-10-29T20:02:17+08:00 ] 0.0.0.0 /myblog/index.php/Myback/useradd
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.015847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016589s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.017873s ]
+SQL: INSERT INTO `my_user` (`user`,`pwd`,`cretime`,`gro`,`shell`) VALUES ('111','11111111',1509278537,2,888) [ RunTime:0.001041s ]
+
+[ 2017-10-29T20:02:18+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-10-29T20:06:59+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-10-29T20:07:13+08:00 ] 0.0.0.0 /myblog/index.php/Myback/useradd
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006625s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.012463s ]
+SQL: INSERT INTO `my_user` (`user`,`pwd`,`cretime`,`gro`,`shell`) VALUES ('222','11111111',1509278833,1,888) [ RunTime:0.001716s ]
+
+[ 2017-10-29T20:07:14+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-10-29T20:11:01+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-10-29T20:11:11+08:00 ] 0.0.0.0 /myblog/index.php/Myback/useradd
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.016998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017709s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.013543s ]
+SQL: INSERT INTO `my_user` (`user`,`pwd`,`cretime`,`gro`,`shell`) VALUES ('3333','4444444444444',1509279071,1,888) [ RunTime:0.001533s ]
+
+[ 2017-10-29T20:11:12+08:00 ] ERR: (ThinkException) 非法操作:kindeditor

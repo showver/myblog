@@ -1,0 +1,14 @@
+需要引入
+<!-- kindeditor -->
+	<script charset="utf-8" src="kindeditor/kindeditor.js"></script>
+	<script charset="utf-8" src="kindeditor/lang/zh_CN.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="kindeditor/themes/default/default.css">
+
+<script type="text/javascript">
+		KindEditor.ready(function(K){
+			window.editor = K.create('#ke_content',{
+				allowPreviewEmotions : true,
+			});
+		});
+	</script>

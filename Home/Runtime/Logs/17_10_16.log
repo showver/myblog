@@ -1,0 +1,23 @@
+[ 2017-10-16T19:50:11+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-10-16T19:50:16+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002793s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.007913s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000558s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.000855s ]
+
+[ 2017-10-16T19:50:18+08:00 ] 0.0.0.0 /myblog/index.php/Myback/up_page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002973s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.007545s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.000569s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM my_user a,my_gro b WHERE ( a.gro=b.uid ) ORDER BY a.id desc LIMIT 2,2   [ RunTime:0.000790s ]
+

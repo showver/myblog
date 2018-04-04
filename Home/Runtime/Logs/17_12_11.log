@@ -1,0 +1,1121 @@
+[ 2017-12-11T09:16:39+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T10:30:24+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T10:30:32+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004044s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.015872s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000948s ]
+
+[ 2017-12-11T10:30:41+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006208s ]
+
+[ 2017-12-11T10:41:35+08:00 ] 0.0.0.0 /myblog/index.php/Index/indexpinglun
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003054s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008805s ]
+SQL: INSERT INTO `my_pinglun` (`b_id`,`id`,`p_content`,`p_pubtime`) VALUES (63,51,'法国梵蒂冈地方官',1512960095) [ RunTime:0.102130s ]
+
+[ 2017-12-11T10:42:26+08:00 ] 0.0.0.0 /myblog/index.php/Index/indexpinglun
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004814s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.009383s ]
+SQL: INSERT INTO `my_pinglun` (`b_id`,`id`,`p_content`,`p_pubtime`) VALUES (62,51,'广泛大概豆腐干',1512960146) [ RunTime:0.000831s ]
+
+[ 2017-12-11T10:55:07+08:00 ] 0.0.0.0 /myblog/index.php/Myback/pinglunshenhearr
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005620s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.010803s ]
+SQL: UPDATE `my_pinglun` SET `p_shenhe`=1 WHERE ( `p_id` IN ('30','29','') ) [ RunTime:0.082035s ]
+
+[ 2017-12-11T11:02:00+08:00 ] 0.0.0.0 /myblog/index.php/Index/indexpinglun
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003132s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.009048s ]
+SQL: INSERT INTO `my_pinglun` (`b_id`,`id`,`p_content`,`p_pubtime`) VALUES (63,51,'他大概豆腐干反对',1512961320) [ RunTime:0.000818s ]
+
+[ 2017-12-11T11:06:46+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T11:07:04+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T11:07:08+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003553s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.012653s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.001526s ]
+
+[ 2017-12-11T11:07:14+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T11:07:17+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003014s ]
+
+[ 2017-12-11T11:07:17+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002997s ]
+
+[ 2017-12-11T11:07:18+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005469s ]
+
+[ 2017-12-11T11:07:18+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003542s ]
+
+[ 2017-12-11T11:10:18+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:17:48+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:17:58+08:00 ] 0.0.0.0 /myblog/index.php/Myback/blogdelall
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005485s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_blog` [ RunTime:0.009938s ]
+SQL: DELETE FROM `my_blog` WHERE ( `b_id` IN ('62','60','') ) [ RunTime:0.190043s ]
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.020296s ]
+SQL: DELETE FROM `my_pinglun` WHERE ( `b_id` IN ('62','60','') ) [ RunTime:0.001357s ]
+
+[ 2017-12-11T11:18:00+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:18:03+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:18:45+08:00 ] 0.0.0.0 /myblog/index.php/Myback/blogdel
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004559s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_blog` [ RunTime:0.010237s ]
+SQL: DELETE FROM my_blog b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id ) [ RunTime:0.000784s ]
+ERR: Erreur de syntaxe près de 'b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id )' à la ligne 1
+ [ SQL语句 ] : DELETE FROM my_blog b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id )
+
+[ 2017-12-11T11:18:47+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:18:52+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:18:55+08:00 ] 0.0.0.0 /myblog/index.php/Myback/blogdel
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005729s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_blog` [ RunTime:0.010086s ]
+SQL: DELETE FROM my_blog b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id ) [ RunTime:0.000440s ]
+ERR: Erreur de syntaxe près de 'b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id )' à la ligne 1
+ [ SQL语句 ] : DELETE FROM my_blog b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id )
+
+[ 2017-12-11T11:18:57+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:20:16+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:20:22+08:00 ] 0.0.0.0 /myblog/index.php/Myback/blogdel
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005106s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_blog` [ RunTime:0.011738s ]
+SQL: DELETE FROM my_blog b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id ) [ RunTime:0.000459s ]
+ERR: Erreur de syntaxe près de 'b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id )' à la ligne 1
+ [ SQL语句 ] : DELETE FROM my_blog b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id )
+
+[ 2017-12-11T11:20:31+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:24:28+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:24:32+08:00 ] 0.0.0.0 /myblog/index.php/Myback/blogdel
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003595s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_blog` [ RunTime:0.009330s ]
+SQL: DELETE FROM my_blog b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id ) [ RunTime:0.000728s ]
+ERR: Erreur de syntaxe près de 'b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id )' à la ligne 1
+ [ SQL语句 ] : DELETE FROM my_blog b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id )
+
+[ 2017-12-11T11:24:39+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:24:42+08:00 ] 0.0.0.0 /myblog/index.php/Myback/blogdel
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003735s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_blog` [ RunTime:0.008957s ]
+SQL: DELETE FROM my_blog b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id ) [ RunTime:0.000595s ]
+ERR: Erreur de syntaxe près de 'b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id )' à la ligne 1
+ [ SQL语句 ] : DELETE FROM my_blog b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id )
+
+[ 2017-12-11T11:24:48+08:00 ] 0.0.0.0 /myblog/index.php/Myback/blogdel
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003421s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_blog` [ RunTime:0.015941s ]
+SQL: DELETE FROM my_blog b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id ) [ RunTime:0.000559s ]
+ERR: Erreur de syntaxe près de 'b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id )' à la ligne 1
+ [ SQL语句 ] : DELETE FROM my_blog b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id )
+
+[ 2017-12-11T11:24:48+08:00 ] 0.0.0.0 /myblog/index.php/Myback/blogdel
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003079s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_blog` [ RunTime:0.010903s ]
+SQL: DELETE FROM my_blog b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id ) [ RunTime:0.000448s ]
+ERR: Erreur de syntaxe près de 'b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id )' à la ligne 1
+ [ SQL语句 ] : DELETE FROM my_blog b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id )
+
+[ 2017-12-11T11:24:52+08:00 ] 0.0.0.0 /myblog/index.php/Myback/blogdel
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003711s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_blog` [ RunTime:0.012770s ]
+SQL: DELETE FROM my_blog b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id ) [ RunTime:0.000579s ]
+ERR: Erreur de syntaxe près de 'b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id )' à la ligne 1
+ [ SQL语句 ] : DELETE FROM my_blog b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id )
+
+[ 2017-12-11T11:24:52+08:00 ] 0.0.0.0 /myblog/index.php/Myback/blogdel
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005086s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_blog` [ RunTime:0.011372s ]
+SQL: DELETE FROM my_blog b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id ) [ RunTime:0.000747s ]
+ERR: Erreur de syntaxe près de 'b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id )' à la ligne 1
+ [ SQL语句 ] : DELETE FROM my_blog b,my_pinglun p WHERE ( b.b_id=63 and b.b_id=p.b_id )
+
+[ 2017-12-11T11:34:22+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:34:24+08:00 ] 0.0.0.0 /myblog/index.php/Myback/blogdel
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004262s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.010162s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_pinglun` WHERE ( b_id=63 ) LIMIT 1   [ RunTime:0.000883s ]
+SQL: DELETE FROM my_blog b,my_pinglun p WHERE ( p.b_id=b.b_id and b.b_id=63 ) [ RunTime:0.000643s ]
+ERR: Erreur de syntaxe près de 'b,my_pinglun p WHERE ( p.b_id=b.b_id and b.b_id=63 )' à la ligne 1
+ [ SQL语句 ] : DELETE FROM my_blog b,my_pinglun p WHERE ( p.b_id=b.b_id and b.b_id=63 )
+
+[ 2017-12-11T11:34:29+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:34:32+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:35:02+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:35:08+08:00 ] 0.0.0.0 /myblog/index.php/Myback/blogdel
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003236s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008647s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_pinglun` WHERE ( b_id=63 ) LIMIT 1   [ RunTime:0.000750s ]
+SQL: DELETE FROM my_blog b,my_pinglun p WHERE ( p.b_id=b.b_id and b.b_id=63 ) [ RunTime:0.000389s ]
+ERR: Erreur de syntaxe près de 'b,my_pinglun p WHERE ( p.b_id=b.b_id and b.b_id=63 )' à la ligne 1
+ [ SQL语句 ] : DELETE FROM my_blog b,my_pinglun p WHERE ( p.b_id=b.b_id and b.b_id=63 )
+
+[ 2017-12-11T11:35:10+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:35:21+08:00 ] 0.0.0.0 /myblog/index.php/Myback/blogdelall
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003555s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_blog` [ RunTime:0.011048s ]
+SQL: DELETE FROM `my_blog` WHERE ( `b_id` IN ('63','') ) [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008784s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT * FROM `my_pinglun` WHERE ( `b_id` IN ('63','') )  [ RunTime:0.000963s ]
+SQL: DELETE FROM `my_pinglun` WHERE ( `b_id` IN ('63','') ) [ RunTime:0.000904s ]
+
+[ 2017-12-11T11:35:23+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:35:26+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:35:36+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:35:44+08:00 ] 0.0.0.0 /myblog/index.php/Myback/blogdel
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003361s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.010633s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_pinglun` WHERE ( b_id=64 ) LIMIT 1   [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `my_blog` [ RunTime:0.009104s ]
+SQL: DELETE FROM `my_blog` WHERE ( b_id=64 ) [ RunTime:0.000886s ]
+
+[ 2017-12-11T11:35:46+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:35:52+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:36:00+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:36:20+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:36:23+08:00 ] 0.0.0.0 /myblog/index.php/Myback/blogdel
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004125s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.010592s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_pinglun` WHERE ( b_id=65 ) LIMIT 1   [ RunTime:0.000897s ]
+SQL: DELETE FROM my_blog b,my_pinglun p WHERE ( p.b_id=b.b_id and b.b_id=65 ) [ RunTime:0.000432s ]
+ERR: Erreur de syntaxe près de 'b,my_pinglun p WHERE ( p.b_id=b.b_id and b.b_id=65 )' à la ligne 1
+ [ SQL语句 ] : DELETE FROM my_blog b,my_pinglun p WHERE ( p.b_id=b.b_id and b.b_id=65 )
+
+[ 2017-12-11T11:36:25+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:38:01+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:38:03+08:00 ] 0.0.0.0 /myblog/index.php/Myback/blogdel
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003992s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.009912s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_pinglun` WHERE ( b_id=65 ) LIMIT 1   [ RunTime:0.000865s ]
+SQL: DELETE FROM `my_pinglun` WHERE ( b_id=65 ) [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `my_blog` [ RunTime:0.010751s ]
+SQL: DELETE FROM `my_blog` WHERE ( b_id=65 ) [ RunTime:0.000978s ]
+
+[ 2017-12-11T11:38:05+08:00 ] ERR: (ThinkException) 非法操作:kindeditor
+[ 2017-12-11T11:42:21+08:00 ] 0.0.0.0 /myblog/index.php/Index/indexpinglun
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003091s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.008754s ]
+SQL: INSERT INTO `my_pinglun` (`b_id`,`id`,`p_content`,`p_pubtime`) VALUES (59,51,'放过机会反击',1512963741) [ RunTime:0.000680s ]
+
+[ 2017-12-11T11:43:15+08:00 ] 0.0.0.0 /myblog/index.php/Index/indexpinglun
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004924s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.010450s ]
+SQL: INSERT INTO `my_pinglun` (`b_id`,`id`,`p_content`,`p_pubtime`) VALUES (59,51,'国防军后方回家',1512963795) [ RunTime:0.000777s ]
+
+[ 2017-12-11T11:48:19+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T11:48:26+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004991s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.011719s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qqq' ) LIMIT 1   [ RunTime:0.003930s ]
+
+[ 2017-12-11T11:48:35+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005392s ]
+
+[ 2017-12-11T11:53:08+08:00 ] 0.0.0.0 /myblog/index.php/Index/indexpinglun
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003199s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.009164s ]
+SQL: INSERT INTO `my_pinglun` (`b_id`,`id`,`p_content`,`p_pubtime`) VALUES (61,52,'有共同经营购房计划',1512964388) [ RunTime:0.030745s ]
+
+[ 2017-12-11T11:54:22+08:00 ] 0.0.0.0 /myblog/index.php/Index/indexpinglun
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003260s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_pinglun` [ RunTime:0.028407s ]
+SQL: INSERT INTO `my_pinglun` (`b_id`,`id`,`p_content`,`p_pubtime`) VALUES (61,52,'合金钢合金钢回家',1512964462) [ RunTime:0.000799s ]
+
+[ 2017-12-11T13:12:52+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T13:13:00+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003942s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.011896s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='谔谔' ) LIMIT 1   [ RunTime:0.000814s ]
+
+[ 2017-12-11T13:13:03+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003665s ]
+
+[ 2017-12-11T13:13:05+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004176s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.009672s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='q' ) LIMIT 1   [ RunTime:0.000845s ]
+
+[ 2017-12-11T13:13:05+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003293s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.009858s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000937s ]
+
+[ 2017-12-11T13:13:05+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003223s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.009986s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='q'q'q' ) LIMIT 1   [ RunTime:0.000740s ]
+ERR: Erreur de syntaxe près de 'q'q' ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='q'q'q' ) LIMIT 1  
+
+[ 2017-12-11T13:13:06+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003179s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.009702s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='钱钱钱' ) LIMIT 1   [ RunTime:0.000954s ]
+
+[ 2017-12-11T13:13:07+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003062s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.010559s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='钱钱' ) LIMIT 1   [ RunTime:0.000858s ]
+
+[ 2017-12-11T13:13:08+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003063s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.008512s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='钱' ) LIMIT 1   [ RunTime:0.000748s ]
+
+[ 2017-12-11T13:13:09+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003169s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.008965s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='q' ) LIMIT 1   [ RunTime:0.000763s ]
+
+[ 2017-12-11T13:13:09+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003032s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.009133s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000901s ]
+
+[ 2017-12-11T13:14:24+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T13:14:25+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T13:14:31+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003643s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.064923s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.001117s ]
+
+[ 2017-12-11T13:14:48+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T13:14:53+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003785s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.012239s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000935s ]
+
+[ 2017-12-11T13:15:01+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004396s ]
+
+[ 2017-12-11T13:15:01+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T13:15:11+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003466s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.012377s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000881s ]
+
+[ 2017-12-11T13:15:20+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003049s ]
+
+[ 2017-12-11T13:15:21+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T13:16:12+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T13:24:33+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T13:24:38+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003242s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.010288s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000916s ]
+
+[ 2017-12-11T13:24:47+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003458s ]
+
+[ 2017-12-11T13:24:48+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T13:25:02+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003365s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.011001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000925s ]
+
+[ 2017-12-11T13:25:11+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003973s ]
+
+[ 2017-12-11T13:25:15+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T13:25:18+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003083s ]
+
+[ 2017-12-11T13:25:19+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003102s ]
+
+[ 2017-12-11T13:25:19+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003076s ]
+
+[ 2017-12-11T13:25:19+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003032s ]
+
+[ 2017-12-11T13:25:25+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T13:25:29+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004402s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.011871s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000898s ]
+
+[ 2017-12-11T13:25:39+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004648s ]
+
+[ 2017-12-11T13:25:41+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T13:26:08+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T13:26:11+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003396s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.011108s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000812s ]
+
+[ 2017-12-11T13:26:15+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003030s ]
+
+[ 2017-12-11T13:26:28+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003062s ]
+
+[ 2017-12-11T13:26:28+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002949s ]
+
+[ 2017-12-11T13:26:28+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003857s ]
+
+[ 2017-12-11T13:26:29+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003115s ]
+
+[ 2017-12-11T13:26:30+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T13:27:13+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T13:27:38+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T13:27:44+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T13:27:48+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003271s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.204103s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000772s ]
+
+[ 2017-12-11T13:27:55+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003409s ]
+
+[ 2017-12-11T13:27:56+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T13:28:20+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T13:28:31+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T13:28:37+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003628s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.065262s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000946s ]
+
+[ 2017-12-11T13:28:45+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004884s ]
+
+[ 2017-12-11T13:28:46+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T13:28:50+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T13:28:52+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003695s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.010571s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000870s ]
+
+[ 2017-12-11T13:29:05+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005891s ]
+
+[ 2017-12-11T13:29:09+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T13:29:12+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003435s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.009250s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000829s ]
+
+[ 2017-12-11T13:29:21+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003175s ]
+
+[ 2017-12-11T13:29:22+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T13:29:45+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T13:29:59+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T13:30:22+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T13:30:41+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T14:49:06+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T14:49:11+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004117s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.072900s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000854s ]
+
+[ 2017-12-11T14:49:19+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003462s ]
+
+[ 2017-12-11T14:49:23+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T14:49:55+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T14:50:01+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003870s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.074863s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000949s ]
+
+[ 2017-12-11T14:50:19+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003441s ]
+
+[ 2017-12-11T14:50:22+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T14:50:31+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003513s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.010547s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qqq' ) LIMIT 1   [ RunTime:0.000852s ]
+
+[ 2017-12-11T14:50:41+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003360s ]
+
+[ 2017-12-11T14:50:41+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T14:51:18+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T14:52:02+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T14:52:12+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T14:52:16+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.024230s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000945s ]
+
+[ 2017-12-11T14:52:22+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003234s ]
+
+[ 2017-12-11T14:52:27+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T14:52:33+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004741s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.010493s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000959s ]
+
+[ 2017-12-11T14:52:35+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003325s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.023092s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qqw' ) LIMIT 1   [ RunTime:0.000724s ]
+
+[ 2017-12-11T14:52:36+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003282s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.009503s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.001161s ]
+
+[ 2017-12-11T14:52:36+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003424s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.010536s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='q' ) LIMIT 1   [ RunTime:0.000840s ]
+
+[ 2017-12-11T14:52:38+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004369s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.011149s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000922s ]
+
+[ 2017-12-11T14:52:38+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004008s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.010413s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='q'q'q' ) LIMIT 1   [ RunTime:0.000560s ]
+ERR: Erreur de syntaxe près de 'q'q' ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='q'q'q' ) LIMIT 1  
+
+[ 2017-12-11T14:52:39+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003629s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.008591s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qqq' ) LIMIT 1   [ RunTime:0.000827s ]
+
+[ 2017-12-11T14:52:51+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004934s ]
+
+[ 2017-12-11T14:52:52+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T14:53:15+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T14:53:18+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.008630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009279s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.010416s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qqq' ) LIMIT 1   [ RunTime:0.001497s ]
+
+[ 2017-12-11T14:53:27+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004052s ]
+
+[ 2017-12-11T14:53:27+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003225s ]
+
+[ 2017-12-11T14:53:28+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003409s ]
+
+[ 2017-12-11T14:53:29+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003147s ]
+
+[ 2017-12-11T14:53:29+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003158s ]
+
+[ 2017-12-11T14:53:30+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003068s ]
+
+[ 2017-12-11T14:53:37+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T14:53:40+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003041s ]
+
+[ 2017-12-11T14:53:41+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003151s ]
+
+[ 2017-12-11T14:53:41+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003194s ]
+
+[ 2017-12-11T14:53:42+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004019s ]
+
+[ 2017-12-11T14:53:42+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003308s ]
+
+[ 2017-12-11T14:53:43+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/userlogin.html]
+[ 2017-12-11T14:54:10+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T14:54:12+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003982s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.054037s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qqq' ) LIMIT 1   [ RunTime:0.000764s ]
+
+[ 2017-12-11T14:54:15+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004204s ]
+
+[ 2017-12-11T14:56:52+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T14:56:55+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003464s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.010029s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qqq' ) LIMIT 1   [ RunTime:0.001357s ]
+
+[ 2017-12-11T14:57:11+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T14:57:13+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004486s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.011707s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qqq' ) LIMIT 1   [ RunTime:0.000938s ]
+
+[ 2017-12-11T14:57:37+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003302s ]
+
+[ 2017-12-11T14:57:40+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004268s ]
+
+[ 2017-12-11T14:57:40+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007574s ]
+
+[ 2017-12-11T14:57:41+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003802s ]
+
+[ 2017-12-11T14:57:41+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003243s ]
+
+[ 2017-12-11T14:57:46+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T14:57:54+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T14:57:56+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003765s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.013427s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qqq' ) LIMIT 1   [ RunTime:0.000749s ]
+
+[ 2017-12-11T14:58:57+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T14:58:59+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003736s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.012851s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qqq' ) LIMIT 1   [ RunTime:0.000935s ]
+
+[ 2017-12-11T14:59:12+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T14:59:15+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003747s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.012088s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qqq' ) LIMIT 1   [ RunTime:0.000944s ]
+
+[ 2017-12-11T14:59:42+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T14:59:43+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T14:59:45+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003770s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.011940s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qqq' ) LIMIT 1   [ RunTime:0.000961s ]
+
+[ 2017-12-11T15:00:10+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T15:00:11+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T15:00:14+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003794s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.096337s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qqq' ) LIMIT 1   [ RunTime:0.000929s ]
+
+[ 2017-12-11T15:00:25+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T15:00:32+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T15:00:36+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004393s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.014166s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qqq' ) LIMIT 1   [ RunTime:0.001531s ]
+
+[ 2017-12-11T15:00:54+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003291s ]
+
+[ 2017-12-11T15:00:59+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T15:01:45+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T15:01:49+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003143s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.010098s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000932s ]
+
+[ 2017-12-11T15:01:51+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002991s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.010240s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qqq' ) LIMIT 1   [ RunTime:0.000724s ]
+
+[ 2017-12-11T15:01:59+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004035s ]
+
+[ 2017-12-11T15:02:04+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T15:02:08+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003594s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.011998s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qqq' ) LIMIT 1   [ RunTime:0.001187s ]
+
+[ 2017-12-11T15:02:38+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T15:02:39+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T15:02:47+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T15:02:51+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003482s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.010244s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qqq' ) LIMIT 1   [ RunTime:0.000895s ]
+
+[ 2017-12-11T15:02:57+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004529s ]
+
+[ 2017-12-11T15:03:00+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T15:03:08+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T15:03:49+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T15:03:54+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005270s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.011064s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qqq' ) LIMIT 1   [ RunTime:0.001230s ]
+
+[ 2017-12-11T15:04:01+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.011289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011935s ]
+
+[ 2017-12-11T15:04:47+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T15:05:13+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004621s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.010784s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='q' ) LIMIT 1   [ RunTime:0.000823s ]
+
+[ 2017-12-11T15:05:13+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003976s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.009872s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000753s ]
+
+[ 2017-12-11T15:05:14+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004037s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.010888s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='q'q'q' ) LIMIT 1   [ RunTime:0.000581s ]
+ERR: Erreur de syntaxe près de 'q'q' ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='q'q'q' ) LIMIT 1  
+
+[ 2017-12-11T15:05:17+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003359s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.008497s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='q' ) LIMIT 1   [ RunTime:0.000772s ]
+
+[ 2017-12-11T15:05:18+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003859s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.008888s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qq' ) LIMIT 1   [ RunTime:0.000751s ]
+
+[ 2017-12-11T15:05:18+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginvalid
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003870s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.011226s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead E:\Application case\wamp\www\myblog\ThinkPHP\Lib\Core\Db.class.php 第 568 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` WHERE ( user='qqq' ) LIMIT 1   [ RunTime:0.000800s ]
+
+[ 2017-12-11T15:05:26+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T15:05:30+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004208s ]
+
+[ 2017-12-11T15:05:30+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003385s ]
+
+[ 2017-12-11T15:05:31+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003728s ]
+
+[ 2017-12-11T15:05:32+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003715s ]
+
+[ 2017-12-11T15:05:33+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003373s ]
+
+[ 2017-12-11T15:05:33+08:00 ] 0.0.0.0 /myblog/index.php/Login/loginverify
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003359s ]
+
+[ 2017-12-11T15:05:59+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T15:06:20+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
+[ 2017-12-11T15:06:37+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Login/verify.html]
